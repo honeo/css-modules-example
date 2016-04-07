@@ -1,0 +1,30 @@
+{
+  "name": "css-modules-example",
+  "version": "1.0.0",
+  "description": "CSS Modules Example",
+  "main": "index.js",
+  "scripts": {
+    "test": "webpack && opener ./index.html"
+  },
+  "keywords": [
+    "css-modules",
+    "example"
+  ],
+  "author": "honeo",
+  "license": "MIT",
+  "dependencies": {
+    "css-loader": "^0.23.1",
+    "opener": "^1.4.1",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.12.14"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/honeo/css-modules-example.git"
+  },
+  "bugs": {
+    "url": "https://github.com/honeo/css-modules-example/issues"
+  },
+  "homepage": "https://github.com/honeo/css-modules-example#readme"
+}
